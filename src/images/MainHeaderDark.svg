@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="500px" viewBox="0 0 1200 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>MainHeader</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="71.1404936%" id="linearGradient-1">
+            <stop stop-color="#009AC2" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#5C698B" stop-opacity="0.67805348" offset="70.2330849%"></stop>
+            <stop stop-color="#292D48" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1200" height="500"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MainHeader">
+            <g id="Background">
+                <use fill="#96D9EA" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <g id="Mountains-Solid-Copy" transform="translate(44.000000, 81.000000)" fill="#292D48" stroke="#292D48">
+                <g id="Mountain" transform="translate(0.000000, 39.000000)">
+                    <path d="M166.909517,17.4806989 L316,310 L0,310 L149.090483,17.4806989 C151.598396,12.5601082 157.620389,10.6042473 162.54098,13.1121613 C164.421751,14.0707476 165.950931,15.5999281 166.909517,17.4806989 Z" id="Triangle"></path>
+                </g>
+                <g id="Mountain" transform="translate(189.000000, 112.000000)">
+                    <path d="M135.414974,5.6075926 L253,237 L0,237 L117.585026,5.6075926 C120.087019,0.683988534 126.106654,-1.27911536 131.030259,1.22287734 C132.919511,2.18292513 134.454926,3.71834041 135.414974,5.6075926 Z" id="Triangle"></path>
+                </g>
+                <g id="Mountain" transform="translate(316.000000, 0.000000)">
+                    <path d="M186.913352,5.55364969 L356,338 L0,338 L169.086648,5.55364969 C171.590403,0.630941569 177.610741,-1.33000737 182.533449,1.17374765 C184.420177,2.13336249 185.953737,3.66692207 186.913352,5.55364969 Z" id="Triangle"></path>
+                </g>
+            </g>
+            <path d="M0,383.835937 L45.2686143,383.835937 C59.2693633,383.835937 72.0709434,375.933293 78.3452479,363.417141 L191.827941,137.038791 C194.797956,131.114125 202.00852,128.718907 207.933186,131.688921 C210.237893,132.844264 212.109245,134.711128 213.270116,137.013056 L297.730469,304.492187 L349.729077,198.012937 C352.152589,193.050232 358.1403,190.99181 363.103005,193.415322 C364.985471,194.334615 366.531687,195.821898 367.523402,197.667238 L420.511719,296.265625 L525.051439,90.5642866 C528.554494,83.6713754 536.982089,80.9233537 543.875,84.4264082 C546.518244,85.7697344 548.666751,87.9175707 550.010901,90.5603959 L688.884609,363.609443 C695.196519,376.01972 707.940952,383.835937 721.86414,383.835937 L1200,383.835937" id="Path-2" stroke="#FFFFFF" stroke-width="10"></path>
+        </g>
+    </g>
+</svg>
