@@ -2,16 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 5s linear;
-  height: 80px;
+.App-header {
+/*  background: url("../images/MainHeader.svg");
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: top center;*/
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.header-banner-bg {
+  width: 90% !important;
+  height: auto;
+  /*visibility: hidden;*/
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 30px;
 }
 
 .App-title {
@@ -20,9 +25,13 @@
 
 .App-intro {
   font-size: large;
+  position: absolute;
+  top: 0;
+  left: 5%;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
