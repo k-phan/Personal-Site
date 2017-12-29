@@ -6,22 +6,11 @@
 .header-banner-bg {
   width: 60%;
   height: auto;
-  /*visibility: hidden;*/
   border-style: solid;
   border-color: white;
-  border-width: 10px;
-  border-radius: 30px;
+  border-width: 5px;
+  border-radius: 5px;
   position: relative;
-}
-
-.header-banner-msg {
-  position: absolute;
-  bottom: 1%;
-  left: 25%;
-  color: white;
-  font-size: 3.5vw;
-  text-shadow: 3px 3px black;
-  font-weight: 500;
 }
 
 .banner-fade-enter {
@@ -45,9 +34,5 @@
 @media (max-width: 750px) {
   .header-banner-bg {
     width: 90%;
-  }
-  .header-banner-msg {
-    left: 11%;
-    font-size: 6vw;
   }
 }

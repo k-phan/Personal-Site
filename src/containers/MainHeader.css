@@ -1,5 +1,7 @@
 .main-header{
-  background: linear-gradient(to bottom, #f4c6b7, #f4c6b7, #e59ea2, #f67280);
-  padding-top: 10px;
+  /*background: linear-gradient(to bottom, #f4c6b7, #f4c6b7, #e59ea2, #f67280);*/
+  background: linear-gradient(to bottom right, #f67280, #f67280, #e59ea2, #f4c6b7);
+  /*background: linear-gradient(to bottom, white, #96d9ea, #96d9ea, #5c698b, #282e48);*/
+  padding-top: 120px;
   padding-bottom: 10px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './HeaderBanner.css';
+import BannerMessage from '../components/BannerMessage.js';
 import headerBackground from '../images/MainHeaderDark.svg';
 
 const messages = [
@@ -13,14 +14,6 @@ const messages = [
   '',
   'Addicted to Sushi 🍣'
 ];
-
-function BannerMessage(props) {
-  return (
-    <h1 className="header-banner-msg" key="this.state.bannerMessageIndex">
-      {props.message}
-    </h1>
-  );
-}
 
 class HeaderBanner extends React.Component {
 
