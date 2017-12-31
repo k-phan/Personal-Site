@@ -2,18 +2,55 @@ nav {
   /*background-color: #686868;*/
   background-color: white;
   overflow: hidden;
-  padding: 9px;
+  padding: 10px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
 }
 
+
+
+nav .brand {
+  float: left;
+}
+
+nav .brand-name {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  display: inline-block;
+}
+
+nav .brand-logo {
+  height: 40px;
+  display: inline-block;
+  float: left;
+}
+
+nav .vertical-brand {
+  width: 100%;
+  display: inline-block;
+}
+
+nav .vertical-brand .brand-name {
+  position: relative;
+  float: left;
+  top: 1px;
+}
+
+nav .vertical-brand i {
+  position: relative;
+  top: 5px;
+}
+
 nav .verticalNav i {
   float: right;
   cursor: pointer;
   color: black;
-  padding-right: 15px;
+  margin-right: 30px;
 }
 
 nav .verticalNav .verticalLinks {
@@ -24,13 +61,26 @@ nav .verticalNav .verticalLinks a {
   text-decoration: none;
   display: block;
   clear: right;
-  padding: 2px 100px;
+  padding: 3px;
+  margin: 0 10%;
+  font-size: 18px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 nav .horizontalNav {
   display: none;
   margin: 0 auto;
   padding-right: 5%;
+  padding-left: 5%;
+  width: 90%;
+  float: right;
 }
 
 nav .horizontalNav .horizontalLinks {
