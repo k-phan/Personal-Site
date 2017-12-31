@@ -1,0 +1,124 @@
+nav {
+  /*background-color: #686868;*/
+  background-color: white;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+
+
+nav .brand {
+  float: left;
+}
+
+nav .brand-name {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  display: inline-block;
+}
+
+nav .brand-logo {
+  height: 40px;
+  display: inline-block;
+  float: left;
+}
+
+nav .vertical-brand {
+  width: 100%;
+  display: inline-block;
+}
+
+nav .vertical-brand .brand-name {
+  position: relative;
+  float: left;
+  top: 1px;
+}
+
+nav .vertical-brand i {
+  position: relative;
+  top: 5px;
+}
+
+nav .verticalNav i {
+  float: right;
+  cursor: pointer;
+  color: black;
+  margin-right: 30px;
+}
+
+nav .verticalNav .verticalLinks {
+  display: none;
+}
+
+nav .verticalNav .verticalLinks a {
+  text-decoration: none;
+  display: block;
+  clear: right;
+  padding: 3px;
+  margin: 0 10%;
+  font-size: 18px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav .horizontalNav {
+  display: none;
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 90%;
+  float: right;
+}
+
+nav .horizontalNav .horizontalLinks {
+  float: right;
+}
+
+
+nav .horizontalNav .horizontalLinks a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 900;
+  /*font-color: black;*/
+  letter-spacing: 0px;
+}
+
+nav a {
+  color: #646464;
+  /*color: #5c698b;*/
+}
+
+nav a:visited {
+  /*color: #5c698b;*/
+  color: #646464;
+}
+
+nav a:hover {
+  /*color: #282e48;*/
+  color: #96d9ea;
+}
+
+@media (min-width: 900px) {
+  nav .horizontalNav {
+    display: block;
+  }
+
+  nav .verticalNav {
+    display: none;
+  }
+}

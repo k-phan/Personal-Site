@@ -1,0 +1,38 @@
+.header-banner {
+  position: relative;
+  width: 100%;
+}
+
+.header-banner-bg {
+  width: 60%;
+  height: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.banner-fade-enter {
+  opacity: 0.01;
+}
+
+.banner-fade-enter.banner-fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+}
+
+.banner-fade-leave {
+  opacity: 1;
+}
+
+.banner-fade-leave.banner-fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 600ms ease-in;
+}
+
+@media (max-width: 750px) {
+  .header-banner-bg {
+    width: 90%;
+  }
+}
